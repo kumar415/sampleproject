@@ -32,8 +32,6 @@
   - name: link latest GOL version 
     file: src=/var/lib/tomcat/webapps/{{time}}-{{build}} dest=/var/lib/tomcat/webapps/gameoflife state=link
   
-  - name: stop iptables
-    service: name=iptables state=stopped
  
 
 
